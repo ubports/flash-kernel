@@ -434,18 +434,18 @@ DTB-Id: allwinner/sun50i-h5-nanopi-neo2.dtb
 U-Boot-Script-Name: bootscr.uboot-generic
 Required-Packages: u-boot-tools
 
-Machine: FriendlyARM NanoPi NEO Plus2
-Kernel-Flavors: arm64
-Boot-Script-Path: /boot/boot.scr
-DTB-Id: allwinner/sun50i-h5-nanopi-neo-plus2.dtb
-U-Boot-Script-Name: bootscr.uboot-generic
-Required-Packages: u-boot-tools
-
 Machine: FriendlyARM NanoPi NEO Air
 Kernel-Flavors: armmp armmp-lpae
 Boot-Script-Path: /boot/boot.scr
 DTB-Id: sun8i-h3-nanopi-neo-air.dtb
 U-Boot-Script-Name: bootscr.sunxi
+Required-Packages: u-boot-tools
+
+Machine: FriendlyARM NanoPi NEO Plus2
+Kernel-Flavors: arm64
+Boot-Script-Path: /boot/boot.scr
+DTB-Id: allwinner/sun50i-h5-nanopi-neo-plus2.dtb
+U-Boot-Script-Name: bootscr.uboot-generic
 Required-Packages: u-boot-tools
 
 Machine: Gemei G9 Tablet
