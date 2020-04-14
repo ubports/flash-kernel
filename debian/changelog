@@ -1,7 +1,10 @@
-flash-kernel (3.101) UNRELEASED; urgency=medium
+flash-kernel (3.101) xenial; urgency=medium
 
   [ Heinrich Schuchardt ]
   * Add FriendlyARM NanoPi NEO Plus2. (Closes: #955374)
+
+  [ Marius Gripsgard ]
+  * Add Pine64 PinePhone Braveheart (1.1) 
 
  -- Vagrant Cascadian <vagrant@debian.org>  Mon, 30 Mar 2020 11:59:14 -0700
 
