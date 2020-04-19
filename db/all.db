@@ -1215,7 +1215,7 @@ U-Boot-Script-Name: bootscr.uboot-generic
 Required-Packages: u-boot-tools
 
 Machine: Pine64 PinePhone Braveheart (1.1)
-Kernel-Flavors: arm64
+Kernel-Flavors: pine64
 Boot-Script-Path: /boot/boot.scr
 DTB-Id: allwinner/sun50i-a64-pinephone-1.1.dtb
 U-Boot-Script-Name: bootscr.uboot-generic
